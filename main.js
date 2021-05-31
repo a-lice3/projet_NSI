@@ -1,20 +1,6 @@
 const canevas = document.getElementById("c");
 const contexte = canevas.getContext("2d");
-function init(){
-    //Initialiser
-    //let entree=document.getElementById('entreeImage');
-    //entree.onchange=chargement;
-    principale();
-}
-function chargement(){//window.addEventListener(entree,on
-    console.log("Image chargée");
-}
-function principale(){
-    //contexte.font="5cm Comic Sans MS";
-    //contexte.fillText("Hello World !",0,300);
-    //var fichierSelectionne = entree.files[0];
-}
-init();
+
 //Code inspiré de https://webplatform.github.io/docs/concepts/programming/drawing_images_onto_canvas/
 function loadAndDrawImage(url)
 {
@@ -63,4 +49,4 @@ function loadAndDrawImage(url)
       var imageURL = window.URL.createObjectURL(file);
 
       loadAndDrawImage(imageURL);
-  }
+ }
