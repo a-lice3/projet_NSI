@@ -2,9 +2,9 @@ p, h1{
     color:white;
 }
 
-header{
+.header{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr repeat(3, 2fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(1px, auto);
     background-color: black;
@@ -14,20 +14,29 @@ header{
     grid-row: 1;
   }
 .two {
+    display: flex;
     text-align: center;
     grid-column: 2;
     grid-row: 1;
+    justify-content: center;
+    align-items: center;
   }
 .three {
+    display: flex;
     text-align: center;
     grid-column: 3;
     grid-row: 1;
+    justify-content: center;
+    align-items: center;
   }
-header .four {
-    margin-right: 5%;
+.header .four {
+    display: flex;
+    /*margin-right: 5%;*/
     text-align: center;
     grid-column: 4;
     grid-row: 1;
+    justify-content: center;
+    align-items: center;
 }
 section .four {
     text-align: center;
@@ -63,6 +72,7 @@ a:hover {
 .box{
     width:400px;
     height: 400px;
+    line-height: 400px;
     margin: 3em;
     background-image: url('https://www.prophot.com/Files/122639/Img/15/colorama-colorgrad-fond-de-studio-vinyle-mat-100x170cm-degrade-blanc-noir-1-.jpg');
     border: 20px solid rgb(0, 0, 0);
