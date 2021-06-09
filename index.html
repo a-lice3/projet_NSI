@@ -6,7 +6,7 @@
         <link href="main.css" rel="stylesheet">
     </head>
     <body style="background-color:#b3c0d1;">
-        <header>
+        <div class="header">
             <div class="one">
                 <img src="https://i.pinimg.com/474x/35/ba/e0/35bae07d4d81d71fe5e884a8556c7b43.jpg" alt="logo" style="width:100px;height:100px"/>
             </div>
@@ -17,14 +17,17 @@
                 <a href="nouveau_projet.html"> NOUVEAU PROJET <br></a>
             </div>
             <div class="four">
-                <a href="a_propos_de_nous.html"> A PROPOS DE NOUS   <br></a>
+                <a href="a_propos_de_nous.html"> À PROPOS DE NOUS   <br></a>
             </div>
-        </header>
-        <div id="">
-            <canvas id="c" width="520" height="480"></canvas>
-            <input type="file" id="entreeImage" accept="image/*">
         </div>
-        
+        <canvas id="c" width="520" height="480" border="2px solid black"></canvas>
+        <input type="file" id="entreeImage" accept="image/*">
+        <button id="f_inv">Inverser les couleurs</button>
+            <button id="retour">Annuler modification</button>
+            <button id="refaire">Refaire la modification</button>
+            <button id="sauv">Sauvegarder</button>
+        <script src="main.js"></script>
+        <script src="filtres.js"></script>
     </body>
-    <script src="main.js"></script>
+
 </html>
