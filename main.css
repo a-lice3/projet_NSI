@@ -104,8 +104,8 @@ article {
 
 p.blocktext {
     text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    font-size: 170%;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
